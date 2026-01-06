@@ -77,25 +77,65 @@
             <div class="modal__half modal__about">
                 <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
                 <h4 class="modal__sub-title modal__sub-title--about"></h4>
-                <p class="modal__para">I am a 44 year old frontend software engineer from Portland Oregon.
-                    <br>I currently work on extremely difficult engineering problems for complex websites.
+                <p class="modal__para">I am a 44 year old <span class="orange">frontend software</span> engineer from Portland Oregon.
+                    <br>I currently work on extremely difficult engineering problems for top tech companies like <b class="orange">Google</b> and <b class="orange">Canva.</b>
                 </p>
                 <div class="modal__languages">
                     <figure class="modal__language">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png">
+                        <span class="language__name">HTML</span>
                     </figure>
                      <figure class="modal__language">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png">
+                        <span class="language__name">HTML</span>
                     </figure>
                      <figure class="modal__language">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png">
+                        <span class="language__name">HTML</span>
                     </figure>
                      <figure class="modal__language">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png">
+                        <span class="language__name">HTML</span>
                     </figure>
                 </div>
             </div>
-            <div class="modal__half modal__contact">Let's have a chat!</div>
+            <div class="modal__half modal__contact">
+               <h3 class="modal__title modal__title--contact">
+                     Let's have a chat!
+                </h3>
+
+                <h3 class="modal__sub-title modal__sub-title--contact">
+                     I'm currently open to new opportunities.
+                </h3>
+                <form id="contact__form" action="">
+                    <div class="form__item">
+                        <label class="form__item--label">Name</label>
+                        <input class="input" name="user_name" type="text" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Email</label>
+                        <input class="input" name="user_email" type="email" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Message</label>
+                        <textarea class="input" name="message" type="text" required></textarea>
+                    </div>
+
+                     <button id="contact__submit" class="form__submit">
+                        Send it my way
+                     </button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fas fa-spinner"></i>
+                </div>
+
+                <div class="modal__overlay modal__overlay--success">
+                    Thanks for the message! Looking forward to speaking with you soon.
+                </div>
+                <i class="fas fa-times modal__exit click"></i>
+            
+            </div>
+            
         </div>
     </section>
     <section class="project">
