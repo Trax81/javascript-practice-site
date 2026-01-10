@@ -2,6 +2,23 @@
 // service_jmnsl3i
 // fkEzjp-UwKVb_Vr9G
 
+let isModalOpen = false;
+
+let contrastToggle = false;
+
+function toggelContrast() {
+  contrastToggle = !contrastToggle;
+
+  if (contrastToggle) {
+  document.body.classList += " dark-theme"
+  }
+  else {
+    document.body.classList.remove("dark-theme")
+  }
+}
+
+
+
 function contact(event) {
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading');
