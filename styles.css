@@ -643,42 +643,43 @@ height =35vh
 */
 .shape {
     position: fixed;
+    width:15px;
 }
 
 .shape--0 {
-    top:35vh;
+    top:15vh;
     left: 5vw;
 }
 
 .shape--1 {
-    top:35vh;
+    top:15vh;
     left: 50vw;
 }
 .shape--2 {
-    top:35vh;
+    top:15vh;
     left: 80vw;
 }
 .shape--3 {
-    top:70vh;
+    top:50vh;
     left: 5vw;
 }
 .shape--4 {
-    top:70vh;
+    top:50vh;
     left: 50vw;
 }
 .shape--5 {
+    top:50vh;
+    left: 80vw;
+}
+.shape--6 {
     top:80vh;
     left: 5vw;
 }
-.shape--6 {
-    top:95vh;
-    left: 5vw;
-}
 .shape--7 {
-    top:95vh;
+    top:80vh;
     left: 50vw;
 }
 .shape--8 {
-    height:95vh;
-    left: 5vw;
+    height:80vh;
+    left: 80vw;
 }
