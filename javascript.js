@@ -6,7 +6,7 @@ let isModalOpen = false;
 
 let contrastToggle = false;
 
-function toggelContrast() {
+function toggleContrast() {
   contrastToggle = !contrastToggle;
 
   if (contrastToggle) {
@@ -49,7 +49,7 @@ setTimeout(() => {
 
 
 }
-let isModalOpen = false;
+
 function toggleModal() {
   if (isModalOpen) {
     isModalOpen = false;
