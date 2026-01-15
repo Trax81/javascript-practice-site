@@ -27,7 +27,7 @@
                 <img id="personal-logo" src="./assets/TJlogo.png" alt="">
             </figure>
             <ul class="nav__link--list">
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" class="
                     
                     nav__link--anchor
@@ -35,7 +35,7 @@
                     link__hover-effect--black">About</a>
                 </li>
                  <li class="nav__link">
-                    <a href="#" class="
+                    <a href="#projects" class="
                     
                     nav__link--anchor
                     link__hover-effect
@@ -80,9 +80,12 @@
                 </div>
             </div>
         </header>
+        <a href="#">
         <button class="mail__btn click" onclick="toggleModal()">
             <i class="fa-regular fa-envelope"></i>
-        </button>
+        
+            </button>
+        </a>
         <a href="projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
@@ -279,26 +282,27 @@
 
      
         <div class="footer__social--list">
-            <a href="" class="footer__social--link,
+            <a href="#" 
+            class="footer__social--link,
             link__hover-effect
             link__hover-effect--white"> 
            Github</a>
-            <a href="" class="footer__social--link,
+            <a href="#" target="_blank" class="footer__social--link,
             link__hover-effect
             link__hover-effect--white"> 
            LinkedIn</a>
-            <a href="" class="footer__social--link,
+            <a href="#" onclick="toggleModal()" class="footer__social--link,
             link__hover-effect
             link__hover-effect--white"> 
            Contact</a>
-            <a href="" class="footer__social--link,
+            <a href="./assets/Example Resume.pdf" target="_blank" class="footer__social--link,
             link__hover-effect
             link__hover-effect--white"> 
            Resume</a> 
             
         </div>
            </figure>
-        <div class="footer__copyright">Copyright © 2026 Travis Jones</div>
+        <div class="footer__copyright">Copyright © 2026 Made by Travis Jones</div>
         
     </div>
     </div>
